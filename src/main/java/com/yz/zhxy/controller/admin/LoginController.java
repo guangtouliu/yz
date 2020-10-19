@@ -35,7 +35,7 @@ public class LoginController {
     @ApiOperation(value = "用户后台登录",notes = "用户后台登录")
     public VoResult login(String userName, String password,Integer userType, HttpServletRequest request, HttpServletResponse response){
         try {
-            VoResult login = loginService.login(userName, password,userType, request, response);
+            VoResult login =  loginService.login(userName, password,userType, request, response);
             return login;
         }catch (Exception e){
             log.debug("错误信息  ==》  ",e);
