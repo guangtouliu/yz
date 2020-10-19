@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yz.zhxy.mapper.PlatMenuRelationMapper">
+  <resultMap id="BaseResultMap" type="com.yz.zhxy.entity.PlatMenuRelation">
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="plat_id" jdbcType="VARCHAR" property="platId" />
+    <result column="menu_id" jdbcType="VARCHAR" property="menuId" />
+    <result column="create_ts" jdbcType="TIMESTAMP" property="createTs" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, plat_id, menu_id, create_ts
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from plat_menu_relation
+    where id = #{id,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from plat_menu_relation
+    where id = #{id,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.yz.zhxy.entity.PlatMenuRelation">
+    insert into plat_menu_relation (id, plat_id, menu_id, 
+      create_ts)
+    values (#{id,jdbcType=VARCHAR}, #{platId,jdbcType=VARCHAR}, #{menuId,jdbcType=VARCHAR}, 
+      #{createTs,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.yz.zhxy.entity.PlatMenuRelation">
+    insert into plat_menu_relation
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="platId != null">
+        plat_id,
+      </if>
+      <if test="menuId != null">
+        menu_id,
+      </if>
+      <if test="createTs != null">
+        create_ts,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="platId != null">
+        #{platId,jdbcType=VARCHAR},
+      </if>
+      <if test="menuId != null">
+        #{menuId,jdbcType=VARCHAR},
+      </if>
+      <if test="createTs != null">
+        #{createTs,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.yz.zhxy.entity.PlatMenuRelation">
+    update plat_menu_relation
+    <set>
+      <if test="platId != null">
+        plat_id = #{platId,jdbcType=VARCHAR},
+      </if>
+      <if test="menuId != null">
+        menu_id = #{menuId,jdbcType=VARCHAR},
+      </if>
+      <if test="createTs != null">
+        create_ts = #{createTs,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.yz.zhxy.entity.PlatMenuRelation">
+    update plat_menu_relation
+    set plat_id = #{platId,jdbcType=VARCHAR},
+      menu_id = #{menuId,jdbcType=VARCHAR},
+      create_ts = #{createTs,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+</mapper>

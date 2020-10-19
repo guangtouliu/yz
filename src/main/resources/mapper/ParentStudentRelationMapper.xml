@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yz.zhxy.mapper.ParentStudentRelationMapper">
+  <resultMap id="BaseResultMap" type="com.yz.zhxy.entity.ParentStudentRelation">
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="parent_user" jdbcType="VARCHAR" property="parentUser" />
+    <result column="student_user" jdbcType="VARCHAR" property="studentUser" />
+    <result column="type" jdbcType="TINYINT" property="type" />
+    <result column="create_ts" jdbcType="TIMESTAMP" property="createTs" />
+    <result column="update_ts" jdbcType="TIMESTAMP" property="updateTs" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, parent_user, student_user, type, create_ts, update_ts
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from parent_student_relation
+    where id = #{id,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from parent_student_relation
+    where id = #{id,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.yz.zhxy.entity.ParentStudentRelation">
+    insert into parent_student_relation (id, parent_user, student_user, 
+      type, create_ts, update_ts
+      )
+    values (#{id,jdbcType=VARCHAR}, #{parentUser,jdbcType=VARCHAR}, #{studentUser,jdbcType=VARCHAR}, 
+      #{type,jdbcType=TINYINT}, #{createTs,jdbcType=TIMESTAMP}, #{updateTs,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.yz.zhxy.entity.ParentStudentRelation">
+    insert into parent_student_relation
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="parentUser != null">
+        parent_user,
+      </if>
+      <if test="studentUser != null">
+        student_user,
+      </if>
+      <if test="type != null">
+        type,
+      </if>
+      <if test="createTs != null">
+        create_ts,
+      </if>
+      <if test="updateTs != null">
+        update_ts,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="parentUser != null">
+        #{parentUser,jdbcType=VARCHAR},
+      </if>
+      <if test="studentUser != null">
+        #{studentUser,jdbcType=VARCHAR},
+      </if>
+      <if test="type != null">
+        #{type,jdbcType=TINYINT},
+      </if>
+      <if test="createTs != null">
+        #{createTs,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTs != null">
+        #{updateTs,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.yz.zhxy.entity.ParentStudentRelation">
+    update parent_student_relation
+    <set>
+      <if test="parentUser != null">
+        parent_user = #{parentUser,jdbcType=VARCHAR},
+      </if>
+      <if test="studentUser != null">
+        student_user = #{studentUser,jdbcType=VARCHAR},
+      </if>
+      <if test="type != null">
+        type = #{type,jdbcType=TINYINT},
+      </if>
+      <if test="createTs != null">
+        create_ts = #{createTs,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTs != null">
+        update_ts = #{updateTs,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.yz.zhxy.entity.ParentStudentRelation">
+    update parent_student_relation
+    set parent_user = #{parentUser,jdbcType=VARCHAR},
+      student_user = #{studentUser,jdbcType=VARCHAR},
+      type = #{type,jdbcType=TINYINT},
+      create_ts = #{createTs,jdbcType=TIMESTAMP},
+      update_ts = #{updateTs,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+</mapper>

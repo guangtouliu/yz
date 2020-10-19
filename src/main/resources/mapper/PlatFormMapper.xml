@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yz.zhxy.mapper.PlatFormMapper">
+  <resultMap id="BaseResultMap" type="com.yz.zhxy.entity.PlatForm">
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="auth_type" jdbcType="TINYINT" property="authType" />
+    <result column="member" jdbcType="INTEGER" property="member" />
+    <result column="pid" jdbcType="VARCHAR" property="pid" />
+    <result column="domain" jdbcType="VARCHAR" property="domain" />
+    <result column="create_ts" jdbcType="TIMESTAMP" property="createTs" />
+    <result column="update_ts" jdbcType="TIMESTAMP" property="updateTs" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, name, auth_type, member, pid,domain, create_ts, update_ts
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from platform
+    where id = #{id,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from platform
+    where id = #{id,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.yz.zhxy.entity.PlatForm">
+    insert into platform (id, name, auth_type, 
+      member, pid,domain, create_ts,
+      update_ts)
+    values (#{id,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR}, #{authType,jdbcType=TINYINT}, 
+      #{member,jdbcType=INTEGER}, #{pid,jdbcType=VARCHAR},#{domain,jdbcType=VARCHAR}, #{createTs,jdbcType=TIMESTAMP},
+      #{updateTs,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.yz.zhxy.entity.PlatForm">
+    insert into platform
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+      <if test="authType != null">
+        auth_type,
+      </if>
+      <if test="member != null">
+        member,
+      </if>
+      <if test="pid != null">
+        pid,
+      </if>
+      <if test="domain != null">
+        domain,
+      </if>
+      <if test="createTs != null">
+        create_ts,
+      </if>
+      <if test="updateTs != null">
+        update_ts,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="authType != null">
+        #{authType,jdbcType=TINYINT},
+      </if>
+      <if test="member != null">
+        #{member,jdbcType=INTEGER},
+      </if>
+      <if test="pid != null">
+        #{pid,jdbcType=VARCHAR},
+      </if>
+      <if test="domain != null">
+        #{domain,jdbcType=VARCHAR},
+      </if>
+      <if test="createTs != null">
+        #{createTs,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTs != null">
+        #{updateTs,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.yz.zhxy.entity.PlatForm">
+    update platform
+    <set>
+      <if test="name != null">
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="authType != null">
+        auth_type = #{authType,jdbcType=TINYINT},
+      </if>
+      <if test="member != null">
+        member = #{member,jdbcType=INTEGER},
+      </if>
+      <if test="pid != null">
+        pid = #{pid,jdbcType=VARCHAR},
+      </if>
+       <if test="domain != null">
+         domain = #{domain,jdbcType=VARCHAR},
+      </if>
+      <if test="createTs != null">
+        create_ts = #{createTs,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTs != null">
+        update_ts = #{updateTs,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.yz.zhxy.entity.PlatForm">
+    update platform
+    set name = #{name,jdbcType=VARCHAR},
+      auth_type = #{authType,jdbcType=TINYINT},
+      member = #{member,jdbcType=INTEGER},
+      pid = #{pid,jdbcType=VARCHAR},
+      domain = #{domain,jdbcType=VARCHAR},
+      create_ts = #{createTs,jdbcType=TIMESTAMP},
+      update_ts = #{updateTs,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+</mapper>

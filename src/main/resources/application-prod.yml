@@ -1,0 +1,31 @@
+spring:
+  datasource:
+    name: test  #数据库名
+    url: jdbc:mysql://localhost:3306/zhxy?autoReconnect=true&useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8 #url
+    username: root  #用户名
+    password: CAOJIAN  #密码
+    driver-class-name: com.mysql.jdbc.Driver #数据库链接驱动
+    type: com.alibaba.druid.pool.DruidDataSource
+     # 初始化大小，最小，最大
+        druid:
+          initial-size: 5
+          min-idle: 5
+          max-active: 20
+          # 配置获取连接等待超时的时间
+          max-wait: 60000
+          # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+          time-between-eviction-runs-millis: 60000
+          # 配置一个连接在池中最小生存的时间，单位是毫秒
+          min-evictable-idle-time-millis: 300000
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml  #配置映射文件
+  type-aliases-package: com.yz.zhxy.entity #配置实体类
+  #showSql
+  logging:
+    level:
+      com:
+        example:
+          mapper : debug
+server:
+  port: 18080

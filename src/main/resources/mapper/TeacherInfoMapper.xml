@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yz.zhxy.mapper.TeacherInfoMapper">
+  <resultMap id="BaseResultMap" type="com.yz.zhxy.entity.TeacherInfo">
+    <id column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="id" jdbcType="BIGINT" property="id" />
+    <result column="school_id" jdbcType="BIGINT" property="schoolId" />
+    <result column="is_free_normal_student" jdbcType="TINYINT" property="isFreeNormalStudent" />
+    <result column="is_special_post_teacher" jdbcType="TINYINT" property="isSpecialPostTeacher" />
+    <result column="special_teacher" jdbcType="VARCHAR" property="specialTeacher" />
+    <result column="is_key_teacher" jdbcType="TINYINT" property="isKeyTeacher" />
+    <result column="key_teacher" jdbcType="VARCHAR" property="keyTeacher" />
+    <result column="political_status" jdbcType="VARCHAR" property="politicalStatus" />
+    <result column="duty" jdbcType="VARCHAR" property="duty" />
+    <result column="job_title" jdbcType="VARCHAR" property="jobTitle" />
+    <result column="job_title_level" jdbcType="VARCHAR" property="jobTitleLevel" />
+    <result column="job_title_date" jdbcType="DATE" property="jobTitleDate" />
+    <result column="tefl_code" jdbcType="VARCHAR" property="teflCode" />
+    <result column="edu_level" jdbcType="VARCHAR" property="eduLevel" />
+    <result column="edu_level_school" jdbcType="VARCHAR" property="eduLevelSchool" />
+    <result column="edu_level_major" jdbcType="VARCHAR" property="eduLevelMajor" />
+    <result column="edu_degree" jdbcType="VARCHAR" property="eduDegree" />
+    <result column="edu_degree_school" jdbcType="VARCHAR" property="eduDegreeSchool" />
+    <result column="edu_degree_major" jdbcType="VARCHAR" property="eduDegreeMajor" />
+    <result column="initial_edu_level" jdbcType="VARCHAR" property="initialEduLevel" />
+    <result column="initial_edu_level_school" jdbcType="VARCHAR" property="initialEduLevelSchool" />
+    <result column="initial_edu_level_major" jdbcType="VARCHAR" property="initialEduLevelMajor" />
+    <result column="create_ts" jdbcType="TIMESTAMP" property="createTs" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    user_id, id, school_id, is_free_normal_student, is_special_post_teacher, special_teacher, 
+    is_key_teacher, key_teacher, political_status, duty, job_title, job_title_level, 
+    job_title_date, tefl_code, edu_level, edu_level_school, edu_level_major, edu_degree, 
+    edu_degree_school, edu_degree_major, initial_edu_level, initial_edu_level_school, 
+    initial_edu_level_major, create_ts
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from teacher_info
+    where user_id = #{userId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from teacher_info
+    where user_id = #{userId,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.yz.zhxy.entity.TeacherInfo">
+    insert into teacher_info (user_id, id, school_id, 
+      is_free_normal_student, is_special_post_teacher, 
+      special_teacher, is_key_teacher, key_teacher, 
+      political_status, duty, job_title, 
+      job_title_level, job_title_date, tefl_code, 
+      edu_level, edu_level_school, edu_level_major, 
+      edu_degree, edu_degree_school, edu_degree_major, 
+      initial_edu_level, initial_edu_level_school, 
+      initial_edu_level_major, create_ts)
+    values (#{userId,jdbcType=BIGINT}, #{id,jdbcType=BIGINT}, #{schoolId,jdbcType=BIGINT}, 
+      #{isFreeNormalStudent,jdbcType=TINYINT}, #{isSpecialPostTeacher,jdbcType=TINYINT}, 
+      #{specialTeacher,jdbcType=VARCHAR}, #{isKeyTeacher,jdbcType=TINYINT}, #{keyTeacher,jdbcType=VARCHAR}, 
+      #{politicalStatus,jdbcType=VARCHAR}, #{duty,jdbcType=VARCHAR}, #{jobTitle,jdbcType=VARCHAR}, 
+      #{jobTitleLevel,jdbcType=VARCHAR}, #{jobTitleDate,jdbcType=DATE}, #{teflCode,jdbcType=VARCHAR}, 
+      #{eduLevel,jdbcType=VARCHAR}, #{eduLevelSchool,jdbcType=VARCHAR}, #{eduLevelMajor,jdbcType=VARCHAR}, 
+      #{eduDegree,jdbcType=VARCHAR}, #{eduDegreeSchool,jdbcType=VARCHAR}, #{eduDegreeMajor,jdbcType=VARCHAR}, 
+      #{initialEduLevel,jdbcType=VARCHAR}, #{initialEduLevelSchool,jdbcType=VARCHAR}, 
+      #{initialEduLevelMajor,jdbcType=VARCHAR}, #{createTs,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.yz.zhxy.entity.TeacherInfo">
+    insert into teacher_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="id != null">
+        id,
+      </if>
+      <if test="schoolId != null">
+        school_id,
+      </if>
+      <if test="isFreeNormalStudent != null">
+        is_free_normal_student,
+      </if>
+      <if test="isSpecialPostTeacher != null">
+        is_special_post_teacher,
+      </if>
+      <if test="specialTeacher != null">
+        special_teacher,
+      </if>
+      <if test="isKeyTeacher != null">
+        is_key_teacher,
+      </if>
+      <if test="keyTeacher != null">
+        key_teacher,
+      </if>
+      <if test="politicalStatus != null">
+        political_status,
+      </if>
+      <if test="duty != null">
+        duty,
+      </if>
+      <if test="jobTitle != null">
+        job_title,
+      </if>
+      <if test="jobTitleLevel != null">
+        job_title_level,
+      </if>
+      <if test="jobTitleDate != null">
+        job_title_date,
+      </if>
+      <if test="teflCode != null">
+        tefl_code,
+      </if>
+      <if test="eduLevel != null">
+        edu_level,
+      </if>
+      <if test="eduLevelSchool != null">
+        edu_level_school,
+      </if>
+      <if test="eduLevelMajor != null">
+        edu_level_major,
+      </if>
+      <if test="eduDegree != null">
+        edu_degree,
+      </if>
+      <if test="eduDegreeSchool != null">
+        edu_degree_school,
+      </if>
+      <if test="eduDegreeMajor != null">
+        edu_degree_major,
+      </if>
+      <if test="initialEduLevel != null">
+        initial_edu_level,
+      </if>
+      <if test="initialEduLevelSchool != null">
+        initial_edu_level_school,
+      </if>
+      <if test="initialEduLevelMajor != null">
+        initial_edu_level_major,
+      </if>
+      <if test="createTs != null">
+        create_ts,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="userId != null">
+        #{userId,jdbcType=BIGINT},
+      </if>
+      <if test="id != null">
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="schoolId != null">
+        #{schoolId,jdbcType=BIGINT},
+      </if>
+      <if test="isFreeNormalStudent != null">
+        #{isFreeNormalStudent,jdbcType=TINYINT},
+      </if>
+      <if test="isSpecialPostTeacher != null">
+        #{isSpecialPostTeacher,jdbcType=TINYINT},
+      </if>
+      <if test="specialTeacher != null">
+        #{specialTeacher,jdbcType=VARCHAR},
+      </if>
+      <if test="isKeyTeacher != null">
+        #{isKeyTeacher,jdbcType=TINYINT},
+      </if>
+      <if test="keyTeacher != null">
+        #{keyTeacher,jdbcType=VARCHAR},
+      </if>
+      <if test="politicalStatus != null">
+        #{politicalStatus,jdbcType=VARCHAR},
+      </if>
+      <if test="duty != null">
+        #{duty,jdbcType=VARCHAR},
+      </if>
+      <if test="jobTitle != null">
+        #{jobTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="jobTitleLevel != null">
+        #{jobTitleLevel,jdbcType=VARCHAR},
+      </if>
+      <if test="jobTitleDate != null">
+        #{jobTitleDate,jdbcType=DATE},
+      </if>
+      <if test="teflCode != null">
+        #{teflCode,jdbcType=VARCHAR},
+      </if>
+      <if test="eduLevel != null">
+        #{eduLevel,jdbcType=VARCHAR},
+      </if>
+      <if test="eduLevelSchool != null">
+        #{eduLevelSchool,jdbcType=VARCHAR},
+      </if>
+      <if test="eduLevelMajor != null">
+        #{eduLevelMajor,jdbcType=VARCHAR},
+      </if>
+      <if test="eduDegree != null">
+        #{eduDegree,jdbcType=VARCHAR},
+      </if>
+      <if test="eduDegreeSchool != null">
+        #{eduDegreeSchool,jdbcType=VARCHAR},
+      </if>
+      <if test="eduDegreeMajor != null">
+        #{eduDegreeMajor,jdbcType=VARCHAR},
+      </if>
+      <if test="initialEduLevel != null">
+        #{initialEduLevel,jdbcType=VARCHAR},
+      </if>
+      <if test="initialEduLevelSchool != null">
+        #{initialEduLevelSchool,jdbcType=VARCHAR},
+      </if>
+      <if test="initialEduLevelMajor != null">
+        #{initialEduLevelMajor,jdbcType=VARCHAR},
+      </if>
+      <if test="createTs != null">
+        #{createTs,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.yz.zhxy.entity.TeacherInfo">
+    update teacher_info
+    <set>
+      <if test="id != null">
+        id = #{id,jdbcType=BIGINT},
+      </if>
+      <if test="schoolId != null">
+        school_id = #{schoolId,jdbcType=BIGINT},
+      </if>
+      <if test="isFreeNormalStudent != null">
+        is_free_normal_student = #{isFreeNormalStudent,jdbcType=TINYINT},
+      </if>
+      <if test="isSpecialPostTeacher != null">
+        is_special_post_teacher = #{isSpecialPostTeacher,jdbcType=TINYINT},
+      </if>
+      <if test="specialTeacher != null">
+        special_teacher = #{specialTeacher,jdbcType=VARCHAR},
+      </if>
+      <if test="isKeyTeacher != null">
+        is_key_teacher = #{isKeyTeacher,jdbcType=TINYINT},
+      </if>
+      <if test="keyTeacher != null">
+        key_teacher = #{keyTeacher,jdbcType=VARCHAR},
+      </if>
+      <if test="politicalStatus != null">
+        political_status = #{politicalStatus,jdbcType=VARCHAR},
+      </if>
+      <if test="duty != null">
+        duty = #{duty,jdbcType=VARCHAR},
+      </if>
+      <if test="jobTitle != null">
+        job_title = #{jobTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="jobTitleLevel != null">
+        job_title_level = #{jobTitleLevel,jdbcType=VARCHAR},
+      </if>
+      <if test="jobTitleDate != null">
+        job_title_date = #{jobTitleDate,jdbcType=DATE},
+      </if>
+      <if test="teflCode != null">
+        tefl_code = #{teflCode,jdbcType=VARCHAR},
+      </if>
+      <if test="eduLevel != null">
+        edu_level = #{eduLevel,jdbcType=VARCHAR},
+      </if>
+      <if test="eduLevelSchool != null">
+        edu_level_school = #{eduLevelSchool,jdbcType=VARCHAR},
+      </if>
+      <if test="eduLevelMajor != null">
+        edu_level_major = #{eduLevelMajor,jdbcType=VARCHAR},
+      </if>
+      <if test="eduDegree != null">
+        edu_degree = #{eduDegree,jdbcType=VARCHAR},
+      </if>
+      <if test="eduDegreeSchool != null">
+        edu_degree_school = #{eduDegreeSchool,jdbcType=VARCHAR},
+      </if>
+      <if test="eduDegreeMajor != null">
+        edu_degree_major = #{eduDegreeMajor,jdbcType=VARCHAR},
+      </if>
+      <if test="initialEduLevel != null">
+        initial_edu_level = #{initialEduLevel,jdbcType=VARCHAR},
+      </if>
+      <if test="initialEduLevelSchool != null">
+        initial_edu_level_school = #{initialEduLevelSchool,jdbcType=VARCHAR},
+      </if>
+      <if test="initialEduLevelMajor != null">
+        initial_edu_level_major = #{initialEduLevelMajor,jdbcType=VARCHAR},
+      </if>
+      <if test="createTs != null">
+        create_ts = #{createTs,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where user_id = #{userId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.yz.zhxy.entity.TeacherInfo">
+    update teacher_info
+    set id = #{id,jdbcType=BIGINT},
+      school_id = #{schoolId,jdbcType=BIGINT},
+      is_free_normal_student = #{isFreeNormalStudent,jdbcType=TINYINT},
+      is_special_post_teacher = #{isSpecialPostTeacher,jdbcType=TINYINT},
+      special_teacher = #{specialTeacher,jdbcType=VARCHAR},
+      is_key_teacher = #{isKeyTeacher,jdbcType=TINYINT},
+      key_teacher = #{keyTeacher,jdbcType=VARCHAR},
+      political_status = #{politicalStatus,jdbcType=VARCHAR},
+      duty = #{duty,jdbcType=VARCHAR},
+      job_title = #{jobTitle,jdbcType=VARCHAR},
+      job_title_level = #{jobTitleLevel,jdbcType=VARCHAR},
+      job_title_date = #{jobTitleDate,jdbcType=DATE},
+      tefl_code = #{teflCode,jdbcType=VARCHAR},
+      edu_level = #{eduLevel,jdbcType=VARCHAR},
+      edu_level_school = #{eduLevelSchool,jdbcType=VARCHAR},
+      edu_level_major = #{eduLevelMajor,jdbcType=VARCHAR},
+      edu_degree = #{eduDegree,jdbcType=VARCHAR},
+      edu_degree_school = #{eduDegreeSchool,jdbcType=VARCHAR},
+      edu_degree_major = #{eduDegreeMajor,jdbcType=VARCHAR},
+      initial_edu_level = #{initialEduLevel,jdbcType=VARCHAR},
+      initial_edu_level_school = #{initialEduLevelSchool,jdbcType=VARCHAR},
+      initial_edu_level_major = #{initialEduLevelMajor,jdbcType=VARCHAR},
+      create_ts = #{createTs,jdbcType=TIMESTAMP}
+    where user_id = #{userId,jdbcType=BIGINT}
+  </update>
+</mapper>

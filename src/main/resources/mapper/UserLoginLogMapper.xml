@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yz.zhxy.mapper.UserLoginLogMapper">
+  <resultMap id="BaseResultMap" type="com.yz.zhxy.entity.UserLoginLog">
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="user_id" jdbcType="VARCHAR" property="userId" />
+    <result column="ip" jdbcType="VARCHAR" property="ip" />
+    <result column="browser" jdbcType="VARCHAR" property="browser" />
+    <result column="access_token" jdbcType="VARCHAR" property="accessToken" />
+    <result column="last_time" jdbcType="TIMESTAMP" property="lastTime" />
+    <result column="os" jdbcType="VARCHAR" property="os" />
+    <result column="system_name" jdbcType="VARCHAR" property="systemName" />
+    <result column="browserName" jdbcType="VARCHAR" property="browsername" />
+    <result column="create_ts" jdbcType="TIMESTAMP" property="createTs" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, user_id, ip, browser, access_token, last_time, os, system_name, browserName, 
+    create_ts
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from user_login_log
+    where id = #{id,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from user_login_log
+    where id = #{id,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.yz.zhxy.entity.UserLoginLog">
+    insert into user_login_log (id, user_id, ip, 
+      browser, access_token, last_time, 
+      os, system_name, browserName, 
+      create_ts)
+    values (#{id,jdbcType=VARCHAR}, #{userId,jdbcType=VARCHAR}, #{ip,jdbcType=VARCHAR}, 
+      #{browser,jdbcType=VARCHAR}, #{accessToken,jdbcType=VARCHAR}, #{lastTime,jdbcType=TIMESTAMP}, 
+      #{os,jdbcType=VARCHAR}, #{systemName,jdbcType=VARCHAR}, #{browsername,jdbcType=VARCHAR}, 
+      #{createTs,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.yz.zhxy.entity.UserLoginLog">
+    insert into user_login_log
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="ip != null">
+        ip,
+      </if>
+      <if test="browser != null">
+        browser,
+      </if>
+      <if test="accessToken != null">
+        access_token,
+      </if>
+      <if test="lastTime != null">
+        last_time,
+      </if>
+      <if test="os != null">
+        os,
+      </if>
+      <if test="systemName != null">
+        system_name,
+      </if>
+      <if test="browsername != null">
+        browserName,
+      </if>
+      <if test="createTs != null">
+        create_ts,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="userId != null">
+        #{userId,jdbcType=VARCHAR},
+      </if>
+      <if test="ip != null">
+        #{ip,jdbcType=VARCHAR},
+      </if>
+      <if test="browser != null">
+        #{browser,jdbcType=VARCHAR},
+      </if>
+      <if test="accessToken != null">
+        #{accessToken,jdbcType=VARCHAR},
+      </if>
+      <if test="lastTime != null">
+        #{lastTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="os != null">
+        #{os,jdbcType=VARCHAR},
+      </if>
+      <if test="systemName != null">
+        #{systemName,jdbcType=VARCHAR},
+      </if>
+      <if test="browsername != null">
+        #{browsername,jdbcType=VARCHAR},
+      </if>
+      <if test="createTs != null">
+        #{createTs,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.yz.zhxy.entity.UserLoginLog">
+    update user_login_log
+    <set>
+      <if test="userId != null">
+        user_id = #{userId,jdbcType=VARCHAR},
+      </if>
+      <if test="ip != null">
+        ip = #{ip,jdbcType=VARCHAR},
+      </if>
+      <if test="browser != null">
+        browser = #{browser,jdbcType=VARCHAR},
+      </if>
+      <if test="accessToken != null">
+        access_token = #{accessToken,jdbcType=VARCHAR},
+      </if>
+      <if test="lastTime != null">
+        last_time = #{lastTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="os != null">
+        os = #{os,jdbcType=VARCHAR},
+      </if>
+      <if test="systemName != null">
+        system_name = #{systemName,jdbcType=VARCHAR},
+      </if>
+      <if test="browsername != null">
+        browserName = #{browsername,jdbcType=VARCHAR},
+      </if>
+      <if test="createTs != null">
+        create_ts = #{createTs,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.yz.zhxy.entity.UserLoginLog">
+    update user_login_log
+    set user_id = #{userId,jdbcType=VARCHAR},
+      ip = #{ip,jdbcType=VARCHAR},
+      browser = #{browser,jdbcType=VARCHAR},
+      access_token = #{accessToken,jdbcType=VARCHAR},
+      last_time = #{lastTime,jdbcType=TIMESTAMP},
+      os = #{os,jdbcType=VARCHAR},
+      system_name = #{systemName,jdbcType=VARCHAR},
+      browserName = #{browsername,jdbcType=VARCHAR},
+      create_ts = #{createTs,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+</mapper>

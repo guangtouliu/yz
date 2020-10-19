@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yz.zhxy.mapper.StudentInfoMapper">
+  <resultMap id="BaseResultMap" type="com.yz.zhxy.entity.StudentInfo">
+    <id column="user_id" jdbcType="VARCHAR" property="userId" />
+    <result column="plat_id" jdbcType="VARCHAR" property="platId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="sex" jdbcType="TINYINT" property="sex" />
+    <result column="create_ts" jdbcType="TIMESTAMP" property="createTs" />
+    <result column="update_ts" jdbcType="TIMESTAMP" property="updateTs" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    user_id, plat_id, name, sex, create_ts, update_ts
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from student_info
+    where user_id = #{userId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from student_info
+    where user_id = #{userId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.yz.zhxy.entity.StudentInfo">
+    insert into student_info (user_id, plat_id, name, 
+      sex, create_ts, update_ts
+      )
+    values (#{userId,jdbcType=VARCHAR}, #{platId,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR}, 
+      #{sex,jdbcType=TINYINT}, #{createTs,jdbcType=TIMESTAMP}, #{updateTs,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.yz.zhxy.entity.StudentInfo">
+    insert into student_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="platId != null">
+        plat_id,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+      <if test="sex != null">
+        sex,
+      </if>
+      <if test="createTs != null">
+        create_ts,
+      </if>
+      <if test="updateTs != null">
+        update_ts,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="userId != null">
+        #{userId,jdbcType=VARCHAR},
+      </if>
+      <if test="platId != null">
+        #{platId,jdbcType=VARCHAR},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null">
+        #{sex,jdbcType=TINYINT},
+      </if>
+      <if test="createTs != null">
+        #{createTs,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTs != null">
+        #{updateTs,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.yz.zhxy.entity.StudentInfo">
+    update student_info
+    <set>
+      <if test="platId != null">
+        plat_id = #{platId,jdbcType=VARCHAR},
+      </if>
+      <if test="name != null">
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null">
+        sex = #{sex,jdbcType=TINYINT},
+      </if>
+      <if test="createTs != null">
+        create_ts = #{createTs,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTs != null">
+        update_ts = #{updateTs,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where user_id = #{userId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.yz.zhxy.entity.StudentInfo">
+    update student_info
+    set plat_id = #{platId,jdbcType=VARCHAR},
+      name = #{name,jdbcType=VARCHAR},
+      sex = #{sex,jdbcType=TINYINT},
+      create_ts = #{createTs,jdbcType=TIMESTAMP},
+      update_ts = #{updateTs,jdbcType=TIMESTAMP}
+    where user_id = #{userId,jdbcType=VARCHAR}
+  </update>
+</mapper>
