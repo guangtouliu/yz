@@ -27,6 +27,11 @@ public class InterceptorConfig extends WebMvcConfigurationSupport {
         // excludePathPatterns 用户排除拦截
         registry.addInterceptor(loginInterceptor).addPathPatterns("/**")
                 .excludePathPatterns(
+                        "/swagger-resources/**",
+                        "/webjars/**",
+                        "/v2/**",
+                        "/swagger-ui.html/**",
+
                         "/admin/login/userLogin",
                         "/admin/login/test",
                         "/**.html",
@@ -44,24 +49,19 @@ public class InterceptorConfig extends WebMvcConfigurationSupport {
         super.addInterceptors(registry);
     }
 
-//    /**
-//     * @Description: 静态资源访问设置
-//     * @Author: Mr.Jkx
-//     * @date: 2020/3/18 16:45
-//     * file：静态资源所在目录
-//     */
-//    @Override
-//    protected void addResourceHandlers(ResourceHandlerRegistry registry) {
-//        registry.addResourceHandler(
-//                "/**.html",
-//                "/**/*.js",
-//                "/**/*.jpg",
-//                "/**/*.png",
-//                "/**/*.gif",
-//                "/**/*.css",
-//                "/**/*.ts")
-//                .addResourceLocations("file:" + resourcesConfig.getWebpagepath(),
-//                        "file:" + resourcesConfig.getReadimagepath());
-//    }
+    /**
+     * @Description: 静态资源访问设置
+     * @Author: Mr.Jkx
+     * @date: 2020/3/18 16:45
+     * file：静态资源所在目录
+     */
+    @Override
+    protected void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("swagger-ui.html")
+                .addResourceLocations("classpath:/META-INF/resources/");
+        registry.addResourceHandler("/webjars/**")
+                .addResourceLocations("classpath:/META-INF/resources/webjars/");
+        super.addResourceHandlers(registry);
+    }
 
 }

@@ -1,1 +1,934 @@
 2020-10-19 12:01:02,586 INFO [SpringContextShutdownHook][DruidDataSource.java:1823] - {dataSource-1} closed
+2020-10-19 14:15:48,654 INFO [main][StartupInfoLogger.java:55] - Starting ZhxyApplication on DESKTOP-JH5I8O2 with PID 7264 (G:\javaTset\yz\target\classes started by 15531 in G:\javaTset\yz)
+2020-10-19 14:15:48,664 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2020-10-19 14:15:49,264 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 14:15:49,266 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 14:15:49,287 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2020-10-19 14:15:49,451 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'redisConfig' of type [com.yz.zhxy.config.RedisConfig$$EnhancerBySpringCGLIB$$757d3cc6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-19 14:15:49,658 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8081 (http)
+2020-10-19 14:15:49,664 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:15:49,665 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2020-10-19 14:15:49,665 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-19 14:15:49,725 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2020-10-19 14:15:49,725 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 986 ms
+2020-10-19 14:15:50,007 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+2020-10-19 14:15:50,192 INFO [main][DruidDataSource.java:928] - {dataSource-1} inited
+2020-10-19 14:15:50,686 WARN [main][ThymeleafAutoConfiguration.java:106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-19 14:15:50,723 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:15:50,737 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-19 14:15:50,746 INFO [main][StartupInfoLogger.java:61] - Started ZhxyApplication in 2.538 seconds (JVM running for 3.978)
+2020-10-19 14:16:24,956 INFO [http-nio-8081-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-19 14:16:24,956 INFO [http-nio-8081-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2020-10-19 14:16:24,963 INFO [http-nio-8081-exec-1][FrameworkServlet.java:547] - Completed initialization in 6 ms
+2020-10-19 14:22:59,567 INFO [main][StartupInfoLogger.java:55] - Starting ZhxyApplication on DESKTOP-JH5I8O2 with PID 8088 (G:\javaTset\yz\target\classes started by 15531 in G:\javaTset\yz)
+2020-10-19 14:22:59,579 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2020-10-19 14:23:01,058 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 14:23:01,061 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 14:23:01,088 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-10-19 14:23:01,326 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'redisConfig' of type [com.yz.zhxy.config.RedisConfig$$EnhancerBySpringCGLIB$$d97290af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-19 14:23:01,687 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8081 (http)
+2020-10-19 14:23:01,697 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:23:01,698 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2020-10-19 14:23:01,698 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-19 14:23:01,842 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2020-10-19 14:23:01,842 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 2171 ms
+2020-10-19 14:23:02,985 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-19 14:23:03,182 WARN [main][ThymeleafAutoConfiguration.java:106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-19 14:23:03,233 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:23:03,256 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-19 14:23:03,257 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2020-10-19 14:23:03,274 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2020-10-19 14:23:03,303 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2020-10-19 14:23:03,323 INFO [main][StartupInfoLogger.java:61] - Started ZhxyApplication in 4.422 seconds (JVM running for 6.317)
+2020-10-19 14:24:56,201 INFO [http-nio-8081-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-19 14:24:56,202 INFO [http-nio-8081-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2020-10-19 14:24:56,222 INFO [http-nio-8081-exec-1][FrameworkServlet.java:547] - Completed initialization in 20 ms
+2020-10-19 14:24:56,253 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html
+2020-10-19 14:24:56,421 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /favicon.ico
+2020-10-19 14:24:56,430 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /favicon.ico
+2020-10-19 14:25:31,576 INFO [main][StartupInfoLogger.java:55] - Starting ZhxyApplication on DESKTOP-JH5I8O2 with PID 1516 (G:\javaTset\yz\target\classes started by 15531 in G:\javaTset\yz)
+2020-10-19 14:25:31,590 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2020-10-19 14:25:32,454 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 14:25:32,457 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 14:25:32,482 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2020-10-19 14:25:32,692 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'redisConfig' of type [com.yz.zhxy.config.RedisConfig$$EnhancerBySpringCGLIB$$488ac682] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-19 14:25:32,926 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8081 (http)
+2020-10-19 14:25:32,934 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:25:32,934 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2020-10-19 14:25:32,934 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-19 14:25:33,022 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2020-10-19 14:25:33,023 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1335 ms
+2020-10-19 14:25:33,917 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-19 14:25:34,096 WARN [main][ThymeleafAutoConfiguration.java:106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-19 14:25:34,135 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:25:34,153 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-19 14:25:34,154 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2020-10-19 14:25:34,170 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2020-10-19 14:25:34,197 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2020-10-19 14:25:34,215 INFO [main][StartupInfoLogger.java:61] - Started ZhxyApplication in 3.192 seconds (JVM running for 4.423)
+2020-10-19 14:25:49,420 INFO [http-nio-8081-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-19 14:25:49,420 INFO [http-nio-8081-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2020-10-19 14:25:49,425 INFO [http-nio-8081-exec-1][FrameworkServlet.java:547] - Completed initialization in 4 ms
+2020-10-19 14:25:49,442 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html
+2020-10-19 14:25:53,514 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html
+2020-10-19 14:25:54,442 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html
+2020-10-19 14:26:26,502 INFO [main][StartupInfoLogger.java:55] - Starting ZhxyApplication on DESKTOP-JH5I8O2 with PID 4224 (G:\javaTset\yz\target\classes started by 15531 in G:\javaTset\yz)
+2020-10-19 14:26:26,512 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2020-10-19 14:26:27,206 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 14:26:27,209 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 14:26:27,233 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-10-19 14:26:27,435 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'redisConfig' of type [com.yz.zhxy.config.RedisConfig$$EnhancerBySpringCGLIB$$bb30c89b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-19 14:26:27,669 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8081 (http)
+2020-10-19 14:26:27,678 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:26:27,678 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2020-10-19 14:26:27,679 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-19 14:26:27,757 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2020-10-19 14:26:27,758 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1175 ms
+2020-10-19 14:26:28,646 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-19 14:26:28,825 WARN [main][ThymeleafAutoConfiguration.java:106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-19 14:26:28,865 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:26:28,883 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-19 14:26:28,884 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2020-10-19 14:26:28,900 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2020-10-19 14:26:28,927 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2020-10-19 14:26:28,944 INFO [main][StartupInfoLogger.java:61] - Started ZhxyApplication in 2.96 seconds (JVM running for 4.213)
+2020-10-19 14:26:36,559 INFO [http-nio-8081-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-19 14:26:36,560 INFO [http-nio-8081-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2020-10-19 14:26:36,564 INFO [http-nio-8081-exec-1][FrameworkServlet.java:547] - Completed initialization in 4 ms
+2020-10-19 14:26:36,581 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html
+2020-10-19 14:26:47,268 INFO [main][StartupInfoLogger.java:55] - Starting ZhxyApplication on DESKTOP-JH5I8O2 with PID 12416 (G:\javaTset\yz\target\classes started by 15531 in G:\javaTset\yz)
+2020-10-19 14:26:47,284 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2020-10-19 14:26:48,279 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 14:26:48,282 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 14:26:48,306 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-10-19 14:26:48,503 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'redisConfig' of type [com.yz.zhxy.config.RedisConfig$$EnhancerBySpringCGLIB$$2c7905d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-19 14:26:48,739 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8081 (http)
+2020-10-19 14:26:48,748 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:26:48,748 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2020-10-19 14:26:48,748 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-19 14:26:48,832 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2020-10-19 14:26:48,832 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1451 ms
+2020-10-19 14:26:49,687 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-19 14:26:49,777 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-19 14:26:49,876 WARN [main][ThymeleafAutoConfiguration.java:106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-19 14:26:50,008 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:26:50,026 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-19 14:26:50,027 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2020-10-19 14:26:50,042 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2020-10-19 14:26:50,067 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2020-10-19 14:26:50,085 INFO [main][StartupInfoLogger.java:61] - Started ZhxyApplication in 3.338 seconds (JVM running for 4.442)
+2020-10-19 14:26:55,465 INFO [http-nio-8081-exec-2][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-19 14:26:55,465 INFO [http-nio-8081-exec-2][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2020-10-19 14:26:55,475 INFO [http-nio-8081-exec-2][FrameworkServlet.java:547] - Completed initialization in 9 ms
+2020-10-19 14:29:11,304 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-19 14:29:15,244 INFO [main][StartupInfoLogger.java:55] - Starting ZhxyApplication on DESKTOP-JH5I8O2 with PID 13420 (G:\javaTset\yz\target\classes started by 15531 in G:\javaTset\yz)
+2020-10-19 14:29:15,258 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2020-10-19 14:29:15,998 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 14:29:16,001 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 14:29:16,024 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-10-19 14:29:16,225 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'redisConfig' of type [com.yz.zhxy.config.RedisConfig$$EnhancerBySpringCGLIB$$a2668b72] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-19 14:29:16,460 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8081 (http)
+2020-10-19 14:29:16,467 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:29:16,468 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2020-10-19 14:29:16,468 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-19 14:29:16,557 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2020-10-19 14:29:16,557 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1209 ms
+2020-10-19 14:29:17,443 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-19 14:29:17,624 WARN [main][ThymeleafAutoConfiguration.java:106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-19 14:29:17,663 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:29:17,680 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-19 14:29:17,681 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2020-10-19 14:29:17,697 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2020-10-19 14:29:17,724 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2020-10-19 14:29:17,741 INFO [main][StartupInfoLogger.java:61] - Started ZhxyApplication in 2.991 seconds (JVM running for 4.151)
+2020-10-19 14:29:28,153 INFO [http-nio-8081-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-19 14:29:28,154 INFO [http-nio-8081-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2020-10-19 14:29:28,158 INFO [http-nio-8081-exec-1][FrameworkServlet.java:547] - Completed initialization in 4 ms
+2020-10-19 14:29:30,509 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:30,521 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:30,529 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:31,594 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:31,602 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:31,610 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:32,096 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:32,104 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:32,112 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:32,625 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:32,632 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:32,641 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:33,292 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:33,301 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:33,309 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:38,811 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:38,817 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:38,826 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:38,833 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:38,839 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:38,846 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:38,852 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:38,859 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:38,865 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:38,872 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:38,879 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:38,886 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:38,892 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:38,899 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:38,905 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:38,912 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:38,919 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:38,926 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:38,932 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:38,939 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:38,945 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:38,952 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:38,958 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:38,965 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:38,971 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:38,978 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:38,985 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:38,991 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:38,998 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,004 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,011 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,016 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,024 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,031 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,038 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,045 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,052 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,061 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,067 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,074 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,081 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,088 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,096 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,103 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,110 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,117 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,124 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,131 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,138 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,144 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,151 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,158 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,164 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,170 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,177 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,183 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,190 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,196 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,202 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,209 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,215 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,222 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,229 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,235 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,242 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,249 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,256 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,263 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,269 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,276 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,283 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,290 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,297 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,304 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,311 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,317 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,324 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,330 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,337 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,344 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,351 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,358 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,365 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,375 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,381 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,388 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,393 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,399 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,406 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,412 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,419 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,425 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,432 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,439 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,446 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,452 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,459 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,465 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,478 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,487 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,495 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,504 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,511 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,518 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,527 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,534 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,542 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,548 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,556 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,563 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,569 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,577 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,584 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,593 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,599 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,606 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,612 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,619 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,626 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,633 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,642 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,649 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,657 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,664 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,672 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,679 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,686 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,694 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,701 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,709 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,716 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,723 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,730 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,737 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,744 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,751 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,757 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,763 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,769 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,776 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,782 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,789 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,795 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,802 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,825 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,832 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,842 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,849 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,859 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,866 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,882 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,892 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,899 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,907 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,914 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,923 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,931 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,940 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,947 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,955 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,961 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,967 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,974 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,980 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:39,987 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:39,993 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:39,998 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,005 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,010 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,016 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,022 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,029 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,035 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,041 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,047 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,056 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,064 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,071 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,078 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,085 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,092 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,099 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,108 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,119 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,125 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,131 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,138 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,145 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,152 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,158 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,165 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,171 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,177 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,183 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,189 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,195 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,200 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,207 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,213 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,219 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,224 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,230 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,236 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,242 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,248 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,255 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,261 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,268 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,274 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,281 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,287 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,294 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,300 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,307 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,313 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,319 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,326 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,332 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,339 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,345 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,351 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,358 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,364 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,370 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,376 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,382 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,388 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,394 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,400 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,406 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,412 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,418 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,424 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,430 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,436 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,442 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,448 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,456 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,465 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,472 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,479 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,486 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,492 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,498 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,504 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,510 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,516 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,523 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,529 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,535 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,542 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,549 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,556 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,562 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,567 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,574 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,579 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,585 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,591 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,597 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,603 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,609 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,615 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,621 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,627 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,633 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,639 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,645 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,650 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,656 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,663 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,670 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,676 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,682 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,687 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,693 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,699 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,706 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,712 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:40,718 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:40,725 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:40,771 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:41,815 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:41,822 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:41,828 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:42,168 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:42,174 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:42,180 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:42,384 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:42,391 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:42,397 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:42,552 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:42,558 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:42,565 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:42,714 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:42,722 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:42,729 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:42,861 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:42,867 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:42,875 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:43,123 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:43,129 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:43,136 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:43,244 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:43,251 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:43,257 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:43,381 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:43,388 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:43,394 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:43,501 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:43,507 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:43,513 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:43,645 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:43,651 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:43,663 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:43,787 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:43,793 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:43,798 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:43,915 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:43,922 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:43,928 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:44,049 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:44,055 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:44,062 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:44,190 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:44,196 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:44,202 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:44,333 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:44,339 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:44,345 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:44,479 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:44,485 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:44,493 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:44,626 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:44,632 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:44,640 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:44,780 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:44,787 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:44,793 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:44,936 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:44,942 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:44,948 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:45,099 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:45,105 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:45,112 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:45,250 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:45,256 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:45,262 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:48,992 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:48,999 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:49,005 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:50,599 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:50,607 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:50,614 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:50,754 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:29:50,764 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:29:50,776 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:29:51,136 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:51,142 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:51,149 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:51,275 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:51,282 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:51,290 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:51,426 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:51,435 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:51,441 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:51,558 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:51,565 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:51,572 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:51,704 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:51,711 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:51,717 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:51,848 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:51,859 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:51,865 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:51,984 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:51,995 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:52,006 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:52,127 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:52,134 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:52,145 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:52,279 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:52,287 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:52,296 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:52,431 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:52,441 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:52,450 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:52,575 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:52,581 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:52,588 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:52,722 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:52,733 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:52,742 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:53,289 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:53,298 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:53,305 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:53,426 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:53,433 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:53,439 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:53,592 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:53,598 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:53,604 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:53,731 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:53,738 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:53,744 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:53,902 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:53,907 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:53,914 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:54,017 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:54,025 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:54,031 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:54,149 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:54,156 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:54,163 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:54,295 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:54,302 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:54,308 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:54,432 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:54,439 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:54,445 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:54,574 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:54,580 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:54,588 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:54,717 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:54,729 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:54,741 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:54,849 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:54,855 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:54,861 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:54,990 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:54,997 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:55,005 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:55,128 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:55,134 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:55,141 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:55,277 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:55,283 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:55,289 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:55,423 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:55,429 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:55,437 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:29:55,577 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/ui
+2020-10-19 14:29:55,583 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources/configuration/security
+2020-10-19 14:29:55,589 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html/swagger-resources
+2020-10-19 14:30:04,209 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /swagger-ui.html
+2020-10-19 14:31:28,641 INFO [main][StartupInfoLogger.java:55] - Starting ZhxyApplication on DESKTOP-JH5I8O2 with PID 6976 (G:\javaTset\yz\target\classes started by 15531 in G:\javaTset\yz)
+2020-10-19 14:31:28,652 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2020-10-19 14:31:29,388 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 14:31:29,391 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 14:31:29,415 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2020-10-19 14:31:29,619 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'redisConfig' of type [com.yz.zhxy.config.RedisConfig$$EnhancerBySpringCGLIB$$f4109fed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-19 14:31:29,853 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8081 (http)
+2020-10-19 14:31:29,861 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:31:29,861 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2020-10-19 14:31:29,861 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-19 14:31:29,939 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2020-10-19 14:31:29,939 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1208 ms
+2020-10-19 14:31:30,949 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-19 14:31:31,137 WARN [main][ThymeleafAutoConfiguration.java:106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-19 14:31:31,182 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:31:31,205 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-19 14:31:31,206 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2020-10-19 14:31:31,222 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2020-10-19 14:31:31,249 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2020-10-19 14:31:31,266 INFO [main][StartupInfoLogger.java:61] - Started ZhxyApplication in 3.138 seconds (JVM running for 4.317)
+2020-10-19 14:31:46,304 INFO [http-nio-8081-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-19 14:31:46,304 INFO [http-nio-8081-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2020-10-19 14:31:46,309 INFO [http-nio-8081-exec-1][FrameworkServlet.java:547] - Completed initialization in 5 ms
+2020-10-19 14:32:42,309 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /doc.html
+2020-10-19 14:33:11,467 INFO [main][StartupInfoLogger.java:55] - Starting ZhxyApplication on DESKTOP-JH5I8O2 with PID 14036 (G:\javaTset\yz\target\classes started by 15531 in G:\javaTset\yz)
+2020-10-19 14:33:11,478 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2020-10-19 14:33:12,178 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 14:33:12,181 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 14:33:12,204 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-10-19 14:33:12,403 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'redisConfig' of type [com.yz.zhxy.config.RedisConfig$$EnhancerBySpringCGLIB$$488ac682] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-19 14:33:12,638 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8081 (http)
+2020-10-19 14:33:12,646 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:33:12,646 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2020-10-19 14:33:12,647 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-19 14:33:12,733 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2020-10-19 14:33:12,733 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1181 ms
+2020-10-19 14:33:13,610 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-19 14:33:13,787 WARN [main][ThymeleafAutoConfiguration.java:106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-19 14:33:13,830 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:33:13,850 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-19 14:33:13,851 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2020-10-19 14:33:13,867 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2020-10-19 14:33:13,893 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2020-10-19 14:33:13,910 INFO [main][StartupInfoLogger.java:61] - Started ZhxyApplication in 2.95 seconds (JVM running for 4.08)
+2020-10-19 14:33:20,598 INFO [http-nio-8081-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-19 14:33:20,599 INFO [http-nio-8081-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2020-10-19 14:33:20,603 INFO [http-nio-8081-exec-1][FrameworkServlet.java:547] - Completed initialization in 4 ms
+2020-10-19 14:33:20,620 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /doc.html
+2020-10-19 14:33:22,769 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /doc.html
+2020-10-19 14:33:37,437 INFO [main][StartupInfoLogger.java:55] - Starting ZhxyApplication on DESKTOP-JH5I8O2 with PID 5516 (G:\javaTset\yz\target\classes started by 15531 in G:\javaTset\yz)
+2020-10-19 14:33:37,453 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2020-10-19 14:33:38,239 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 14:33:38,243 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 14:33:38,265 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-10-19 14:33:38,465 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'redisConfig' of type [com.yz.zhxy.config.RedisConfig$$EnhancerBySpringCGLIB$$c7af2979] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-19 14:33:38,700 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8081 (http)
+2020-10-19 14:33:38,708 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:33:38,709 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2020-10-19 14:33:38,709 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-19 14:33:38,794 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2020-10-19 14:33:38,794 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1252 ms
+2020-10-19 14:33:39,629 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-19 14:33:39,711 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-19 14:33:39,803 WARN [main][ThymeleafAutoConfiguration.java:106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-19 14:33:39,936 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:33:39,954 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-19 14:33:39,955 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2020-10-19 14:33:39,970 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2020-10-19 14:33:39,994 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2020-10-19 14:33:40,012 INFO [main][StartupInfoLogger.java:61] - Started ZhxyApplication in 3.09 seconds (JVM running for 4.18)
+2020-10-19 14:33:47,924 INFO [http-nio-8081-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-19 14:33:47,925 INFO [http-nio-8081-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2020-10-19 14:33:47,930 INFO [http-nio-8081-exec-1][FrameworkServlet.java:547] - Completed initialization in 5 ms
+2020-10-19 14:34:30,559 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-19 14:34:34,586 INFO [main][StartupInfoLogger.java:55] - Starting ZhxyApplication on DESKTOP-JH5I8O2 with PID 3224 (G:\javaTset\yz\target\classes started by 15531 in G:\javaTset\yz)
+2020-10-19 14:34:34,596 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2020-10-19 14:34:35,373 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 14:34:35,376 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 14:34:35,399 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2020-10-19 14:34:35,598 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'redisConfig' of type [com.yz.zhxy.config.RedisConfig$$EnhancerBySpringCGLIB$$54cff14f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-19 14:34:35,869 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8081 (http)
+2020-10-19 14:34:35,877 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:34:35,877 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2020-10-19 14:34:35,877 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-19 14:34:35,963 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2020-10-19 14:34:35,963 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1292 ms
+2020-10-19 14:34:36,880 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-19 14:34:36,960 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-19 14:34:37,078 WARN [main][ThymeleafAutoConfiguration.java:106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-19 14:34:37,250 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:34:37,268 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-19 14:34:37,269 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2020-10-19 14:34:37,284 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2020-10-19 14:34:37,310 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2020-10-19 14:34:37,329 INFO [main][StartupInfoLogger.java:61] - Started ZhxyApplication in 3.277 seconds (JVM running for 4.493)
+2020-10-19 14:37:52,966 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-19 14:37:57,009 INFO [main][StartupInfoLogger.java:55] - Starting ZhxyApplication on DESKTOP-JH5I8O2 with PID 16132 (G:\javaTset\yz\target\classes started by 15531 in G:\javaTset\yz)
+2020-10-19 14:37:57,024 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2020-10-19 14:37:57,852 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 14:37:57,855 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 14:37:57,879 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-10-19 14:37:58,083 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'redisConfig' of type [com.yz.zhxy.config.RedisConfig$$EnhancerBySpringCGLIB$$8050e70a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-19 14:37:58,321 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8081 (http)
+2020-10-19 14:37:58,329 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:37:58,329 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2020-10-19 14:37:58,330 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-19 14:37:58,415 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2020-10-19 14:37:58,415 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1300 ms
+2020-10-19 14:37:59,311 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-19 14:37:59,505 WARN [main][ThymeleafAutoConfiguration.java:106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-19 14:37:59,545 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:37:59,565 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-19 14:37:59,566 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2020-10-19 14:37:59,581 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2020-10-19 14:37:59,611 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2020-10-19 14:37:59,628 INFO [main][StartupInfoLogger.java:61] - Started ZhxyApplication in 3.156 seconds (JVM running for 4.352)
+2020-10-19 14:39:41,843 INFO [main][StartupInfoLogger.java:55] - Starting ZhxyApplication on DESKTOP-JH5I8O2 with PID 11076 (G:\javaTset\yz\target\classes started by 15531 in G:\javaTset\yz)
+2020-10-19 14:39:41,854 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2020-10-19 14:39:42,584 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 14:39:42,587 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 14:39:42,611 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-10-19 14:39:42,816 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'redisConfig' of type [com.yz.zhxy.config.RedisConfig$$EnhancerBySpringCGLIB$$837fe23c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-19 14:39:43,057 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8081 (http)
+2020-10-19 14:39:43,065 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:39:43,066 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2020-10-19 14:39:43,066 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-19 14:39:43,151 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2020-10-19 14:39:43,152 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1220 ms
+2020-10-19 14:39:44,047 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-19 14:39:44,224 WARN [main][ThymeleafAutoConfiguration.java:106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-19 14:39:44,268 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:39:44,289 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-19 14:39:44,289 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2020-10-19 14:39:44,303 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2020-10-19 14:39:44,330 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2020-10-19 14:39:44,347 INFO [main][StartupInfoLogger.java:61] - Started ZhxyApplication in 3.016 seconds (JVM running for 4.188)
+2020-10-19 14:39:55,829 INFO [http-nio-8081-exec-2][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-19 14:39:55,830 INFO [http-nio-8081-exec-2][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2020-10-19 14:39:55,837 INFO [http-nio-8081-exec-2][FrameworkServlet.java:547] - Completed initialization in 7 ms
+2020-10-19 14:41:45,603 INFO [main][StartupInfoLogger.java:55] - Starting ZhxyApplication on DESKTOP-JH5I8O2 with PID 13636 (G:\javaTset\yz\target\classes started by 15531 in G:\javaTset\yz)
+2020-10-19 14:41:45,613 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2020-10-19 14:41:46,343 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 14:41:46,346 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 14:41:46,368 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-10-19 14:41:46,569 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'redisConfig' of type [com.yz.zhxy.config.RedisConfig$$EnhancerBySpringCGLIB$$38232ea4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-19 14:41:46,799 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8081 (http)
+2020-10-19 14:41:46,806 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:41:46,807 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2020-10-19 14:41:46,807 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-19 14:41:46,896 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2020-10-19 14:41:46,896 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1202 ms
+2020-10-19 14:41:47,797 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-19 14:41:47,977 WARN [main][ThymeleafAutoConfiguration.java:106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-19 14:41:48,021 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:41:48,039 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-19 14:41:48,040 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2020-10-19 14:41:48,054 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2020-10-19 14:41:48,084 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2020-10-19 14:41:48,103 INFO [main][StartupInfoLogger.java:61] - Started ZhxyApplication in 2.998 seconds (JVM running for 4.182)
+2020-10-19 14:41:54,171 INFO [http-nio-8081-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-19 14:41:54,171 INFO [http-nio-8081-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2020-10-19 14:41:54,177 INFO [http-nio-8081-exec-1][FrameworkServlet.java:547] - Completed initialization in 6 ms
+2020-10-19 14:42:19,875 INFO [main][StartupInfoLogger.java:55] - Starting ZhxyApplication on DESKTOP-JH5I8O2 with PID 12728 (G:\javaTset\yz\target\classes started by 15531 in G:\javaTset\yz)
+2020-10-19 14:42:19,888 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2020-10-19 14:42:20,631 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 14:42:20,634 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 14:42:20,657 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-10-19 14:42:20,861 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'redisConfig' of type [com.yz.zhxy.config.RedisConfig$$EnhancerBySpringCGLIB$$337b1910] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-19 14:42:21,182 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8081 (http)
+2020-10-19 14:42:21,192 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:42:21,192 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2020-10-19 14:42:21,192 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-19 14:42:21,290 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2020-10-19 14:42:21,290 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1317 ms
+2020-10-19 14:42:22,193 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-19 14:42:22,371 WARN [main][ThymeleafAutoConfiguration.java:106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-19 14:42:22,410 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:42:22,428 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-19 14:42:22,429 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2020-10-19 14:42:22,443 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2020-10-19 14:42:22,469 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2020-10-19 14:42:22,486 INFO [main][StartupInfoLogger.java:61] - Started ZhxyApplication in 3.124 seconds (JVM running for 4.422)
+2020-10-19 14:42:22,592 INFO [http-nio-8081-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-19 14:42:22,592 INFO [http-nio-8081-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2020-10-19 14:42:22,597 INFO [http-nio-8081-exec-1][FrameworkServlet.java:547] - Completed initialization in 5 ms
+2020-10-19 14:43:18,274 INFO [main][StartupInfoLogger.java:55] - Starting ZhxyApplication on DESKTOP-JH5I8O2 with PID 12040 (G:\javaTset\yz\target\classes started by 15531 in G:\javaTset\yz)
+2020-10-19 14:43:18,284 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2020-10-19 14:43:19,032 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 14:43:19,034 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 14:43:19,058 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-10-19 14:43:19,394 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'redisConfig' of type [com.yz.zhxy.config.RedisConfig$$EnhancerBySpringCGLIB$$8c9eb68a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-19 14:43:19,639 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8081 (http)
+2020-10-19 14:43:19,646 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:43:19,646 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2020-10-19 14:43:19,646 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-19 14:43:19,713 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2020-10-19 14:43:19,714 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1333 ms
+2020-10-19 14:43:20,605 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-19 14:43:20,819 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
+2020-10-19 14:43:20,839 WARN [main][ThymeleafAutoConfiguration.java:106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-19 14:43:20,881 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:43:20,899 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-19 14:43:20,900 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2020-10-19 14:43:20,914 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2020-10-19 14:43:20,940 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2020-10-19 14:43:20,960 INFO [main][StartupInfoLogger.java:61] - Started ZhxyApplication in 3.196 seconds (JVM running for 4.332)
+2020-10-19 14:43:27,225 INFO [http-nio-8081-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-19 14:43:27,225 INFO [http-nio-8081-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2020-10-19 14:43:27,231 INFO [http-nio-8081-exec-1][FrameworkServlet.java:547] - Completed initialization in 5 ms
+2020-10-19 14:43:48,284 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2020-10-19 14:43:52,177 INFO [main][StartupInfoLogger.java:55] - Starting ZhxyApplication on DESKTOP-JH5I8O2 with PID 8252 (G:\javaTset\yz\target\classes started by 15531 in G:\javaTset\yz)
+2020-10-19 14:43:52,187 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2020-10-19 14:43:53,013 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 14:43:53,016 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 14:43:53,040 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-10-19 14:43:53,261 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'redisConfig' of type [com.yz.zhxy.config.RedisConfig$$EnhancerBySpringCGLIB$$2eddfc87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-19 14:43:53,508 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8081 (http)
+2020-10-19 14:43:53,518 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:43:53,518 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2020-10-19 14:43:53,519 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-19 14:43:53,619 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2020-10-19 14:43:53,620 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1249 ms
+2020-10-19 14:43:54,558 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-19 14:43:54,758 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
+2020-10-19 14:43:54,778 WARN [main][ThymeleafAutoConfiguration.java:106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-19 14:43:54,821 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:43:54,840 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-19 14:43:54,841 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2020-10-19 14:43:54,855 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2020-10-19 14:43:54,883 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2020-10-19 14:43:54,905 INFO [main][StartupInfoLogger.java:61] - Started ZhxyApplication in 3.274 seconds (JVM running for 4.395)
+2020-10-19 14:44:02,165 INFO [http-nio-8081-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-19 14:44:02,165 INFO [http-nio-8081-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2020-10-19 14:44:02,173 INFO [http-nio-8081-exec-1][FrameworkServlet.java:547] - Completed initialization in 8 ms
+2020-10-19 14:46:41,345 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /
+2020-10-19 14:46:41,435 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /csrf
+2020-10-19 14:48:29,742 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2020-10-19 14:48:33,719 INFO [main][StartupInfoLogger.java:55] - Starting ZhxyApplication on DESKTOP-JH5I8O2 with PID 13792 (G:\javaTset\yz\target\classes started by 15531 in G:\javaTset\yz)
+2020-10-19 14:48:33,733 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2020-10-19 14:48:34,288 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 14:48:34,291 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 14:48:34,317 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020-10-19 14:48:34,535 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'redisConfig' of type [com.yz.zhxy.config.RedisConfig$$EnhancerBySpringCGLIB$$145317d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-19 14:48:34,755 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8081 (http)
+2020-10-19 14:48:34,762 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:48:34,762 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2020-10-19 14:48:34,762 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-19 14:48:34,829 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2020-10-19 14:48:34,830 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1003 ms
+2020-10-19 14:48:35,731 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
+2020-10-19 14:48:35,746 WARN [main][ThymeleafAutoConfiguration.java:106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-19 14:48:35,782 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:48:35,800 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-19 14:48:35,810 INFO [main][StartupInfoLogger.java:61] - Started ZhxyApplication in 2.593 seconds (JVM running for 3.768)
+2020-10-19 14:49:34,661 INFO [http-nio-8081-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-19 14:49:34,661 INFO [http-nio-8081-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2020-10-19 14:49:34,665 INFO [http-nio-8081-exec-1][FrameworkServlet.java:547] - Completed initialization in 4 ms
+2020-10-19 14:49:34,677 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /swagger-resources
+2020-10-19 14:49:41,571 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2020-10-19 14:49:44,040 INFO [main][StartupInfoLogger.java:55] - Starting ZhxyApplication on DESKTOP-JH5I8O2 with PID 7984 (G:\javaTset\yz\target\classes started by 15531 in G:\javaTset\yz)
+2020-10-19 14:49:44,050 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2020-10-19 14:49:44,580 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 14:49:44,583 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 14:49:44,609 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020-10-19 14:49:44,830 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'redisConfig' of type [com.yz.zhxy.config.RedisConfig$$EnhancerBySpringCGLIB$$6d49e624] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-19 14:49:45,052 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8081 (http)
+2020-10-19 14:49:45,059 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:49:45,060 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2020-10-19 14:49:45,060 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-19 14:49:45,130 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2020-10-19 14:49:45,130 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1000 ms
+2020-10-19 14:49:46,029 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
+2020-10-19 14:49:46,043 WARN [main][ThymeleafAutoConfiguration.java:106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-19 14:49:46,082 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:49:46,100 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-19 14:49:46,110 INFO [main][StartupInfoLogger.java:61] - Started ZhxyApplication in 2.602 seconds (JVM running for 3.855)
+2020-10-19 14:49:52,295 INFO [http-nio-8081-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-19 14:49:52,295 INFO [http-nio-8081-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2020-10-19 14:49:52,302 INFO [http-nio-8081-exec-1][FrameworkServlet.java:547] - Completed initialization in 6 ms
+2020-10-19 14:49:52,313 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /swagger-resources
+2020-10-19 14:50:55,982 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /swagger-resources/configuration/ui
+2020-10-19 14:50:55,993 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /swagger-resources/configuration/security
+2020-10-19 14:50:56,000 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /swagger-resources
+2020-10-19 14:50:57,560 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:50:57,569 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:50:57,578 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:50:59,525 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:50:59,533 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:50:59,541 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:50:59,994 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:51:00,004 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:51:00,010 WARN [http-nio-8081-exec-1][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:51:00,161 WARN [http-nio-8081-exec-2][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:51:00,170 WARN [http-nio-8081-exec-3][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:51:00,175 WARN [http-nio-8081-exec-8][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:51:00,311 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:51:00,316 WARN [http-nio-8081-exec-4][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:51:00,323 WARN [http-nio-8081-exec-7][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:51:00,450 WARN [http-nio-8081-exec-6][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/ui
+2020-10-19 14:51:00,460 WARN [http-nio-8081-exec-9][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources/configuration/security
+2020-10-19 14:51:00,470 WARN [http-nio-8081-exec-10][DispatcherServlet.java:1251] - No mapping for GET /null/swagger-resources
+2020-10-19 14:51:02,554 WARN [http-nio-8081-exec-5][DispatcherServlet.java:1251] - No mapping for GET /swagger-resources
+2020-10-19 14:53:55,139 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2020-10-19 14:53:59,112 INFO [main][StartupInfoLogger.java:55] - Starting ZhxyApplication on DESKTOP-JH5I8O2 with PID 13184 (G:\javaTset\yz\target\classes started by 15531 in G:\javaTset\yz)
+2020-10-19 14:53:59,122 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2020-10-19 14:53:59,834 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-19 14:53:59,838 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-19 14:53:59,864 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2020-10-19 14:54:00,114 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'redisConfig' of type [com.yz.zhxy.config.RedisConfig$$EnhancerBySpringCGLIB$$1e9b242c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-19 14:54:00,346 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8081 (http)
+2020-10-19 14:54:00,355 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:54:00,355 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2020-10-19 14:54:00,355 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-19 14:54:00,441 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2020-10-19 14:54:00,441 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1240 ms
+2020-10-19 14:54:01,335 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-19 14:54:01,506 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'taskScheduler'
+2020-10-19 14:54:01,521 WARN [main][ThymeleafAutoConfiguration.java:106] - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-19 14:54:01,562 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8081"]
+2020-10-19 14:54:01,581 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8081 (http) with context path ''
+2020-10-19 14:54:01,582 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2020-10-19 14:54:01,596 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2020-10-19 14:54:01,621 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2020-10-19 14:54:01,804 INFO [main][CachingOperationNameGenerator.java:40] - Generating unique operation named: loginUsingPOST_1
+2020-10-19 14:54:01,828 INFO [main][StartupInfoLogger.java:61] - Started ZhxyApplication in 3.213 seconds (JVM running for 4.398)
+2020-10-19 14:54:06,212 INFO [http-nio-8081-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-19 14:54:06,212 INFO [http-nio-8081-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2020-10-19 14:54:06,219 INFO [http-nio-8081-exec-1][FrameworkServlet.java:547] - Completed initialization in 7 ms
